@@ -3,3 +3,7 @@ CASE
     ELSE 'other'
 END
 
+CASE
+WHEN Event Action ="stringA" AND Event Label = "stringB" THEN 'stringC'
+ELSE "other"
+END
